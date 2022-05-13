@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pi Game</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" href="favicon.ico">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<div id = 'menu'>
+		<h1>Pi Game</h1>
+		<p>Enter as many digits of pi as you can</p>
+		<p id = 'highScore'>Your high score for this session is 0</p>
+		<button id = 'startButton'>Start</button>
+	</div>
+	<div id = 'game'>
+		<p id = 'pi'>3.</p>
+		<p>Enter the next digit of pi</p>
+	</div>
+	<div id = 'gameOver'>
+		<h1>Game Over!</h1>
+		<p id = 'score'>Your score was 0</p>
+		<p id = 'missedDigit'>The digit you missed was 1</p>
+		<button id = 'menuButton'>Return to Menu</button>
+		<button id = 'restartButton'>Play Again</button>
+	</div>
+	<div id = 'phoneMessage'>
+		<h1>Sorry</h1>
+		<p>Unfourtunately, this game was not designed to be played with a phone or tablet. Please come back later when you have access to a computer.</p>
+		<p>If you get this message while using a touchscreen computer, please use the trackpad or mouse.</p>
+	</div>
+</body>
+
+</html>
