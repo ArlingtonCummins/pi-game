@@ -41,7 +41,26 @@ p {
 	font-size: 20px;
 }
 
+p.anim {
+	animation-duration: 100ms;
+	animation-name: zoominout;
+}
+
 button {
 	font-family: 'Fredoka', sans-serif;
 	font-size: 20px;
+}
+
+@keyframes zoominout {
+	0% {
+		font-size: 20px;
+	}
+
+	50% {
+		font-size: 22px;
+	}
+
+	100% {
+		font-size: 20px;
+	}
 }
